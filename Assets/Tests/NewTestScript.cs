@@ -12,7 +12,7 @@ namespace Tests
         [Test]
         public void NewTestScriptSimplePasses()
         {
-            Assert.Equals(true, false);
+            Assert.Equals(true, true);
         }
 
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
